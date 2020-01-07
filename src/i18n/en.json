@@ -1,0 +1,20 @@
+{
+	"title1": "Send Whatsapp Messages",
+	"title2": "without adding contacts",
+	"countryCode": "Country code",
+	"phoneNumber":"Number",
+	"send":"Send",
+	"loading":"Loading",
+	"welcome1":"First time here?",
+	"welcome2":"All non-contacts you write to, will be saved",
+	"welcome3":"in your browser's local memory and listed here",
+	"history":"Wasapegas history",
+	"delete":"delete",
+	"unknown":"Unknown",
+	"name":"Name",
+	"selectCountry":"Select a country",
+	"optional":"optional",
+	"paisesError": "Error loading countries",
+	"message": "Message",
+	"validNumberQuestion": "Is this a valid WhatsApp number?"
+}

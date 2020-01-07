@@ -2,7 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import './i18n';
 import * as serviceWorker from './serviceWorker';
+import 'moment/locale/es';
+import 'moment/locale/en-gb';
+import moment from 'moment';
+
+moment.locale("es");
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
