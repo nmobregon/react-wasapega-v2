@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-wasapega-v2/static/css/main.3fd28ca7.chunk.css",
+    "main.js": "/react-wasapega-v2/static/js/main.7aa861dd.chunk.js",
+    "main.js.map": "/react-wasapega-v2/static/js/main.7aa861dd.chunk.js.map",
+    "runtime-main.js": "/react-wasapega-v2/static/js/runtime-main.45c14aa9.js",
+    "runtime-main.js.map": "/react-wasapega-v2/static/js/runtime-main.45c14aa9.js.map",
+    "static/css/2.66dfd84a.chunk.css": "/react-wasapega-v2/static/css/2.66dfd84a.chunk.css",
+    "static/js/2.70c6d14e.chunk.js": "/react-wasapega-v2/static/js/2.70c6d14e.chunk.js",
+    "static/js/2.70c6d14e.chunk.js.map": "/react-wasapega-v2/static/js/2.70c6d14e.chunk.js.map",
+    "index.html": "/react-wasapega-v2/index.html",
+    "precache-manifest.a4852f2064c886a5cc2db6788bdf17d0.js": "/react-wasapega-v2/precache-manifest.a4852f2064c886a5cc2db6788bdf17d0.js",
+    "service-worker.js": "/react-wasapega-v2/service-worker.js",
+    "static/css/2.66dfd84a.chunk.css.map": "/react-wasapega-v2/static/css/2.66dfd84a.chunk.css.map",
+    "static/css/main.3fd28ca7.chunk.css.map": "/react-wasapega-v2/static/css/main.3fd28ca7.chunk.css.map",
+    "static/js/2.70c6d14e.chunk.js.LICENSE": "/react-wasapega-v2/static/js/2.70c6d14e.chunk.js.LICENSE",
+    "static/media/primereact.min.css": "/react-wasapega-v2/static/media/line.567f5738.gif",
+    "static/media/logo.png": "/react-wasapega-v2/static/media/logo.81c76b18.png",
+    "static/media/theme.css": "/react-wasapega-v2/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
+    "static/media/primeicons.css": "/react-wasapega-v2/static/media/primeicons.e5e0e944.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45c14aa9.js",
+    "static/css/2.66dfd84a.chunk.css",
+    "static/js/2.70c6d14e.chunk.js",
+    "static/css/main.3fd28ca7.chunk.css",
+    "static/js/main.7aa861dd.chunk.js"
+  ]
+}
