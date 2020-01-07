@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useCallback} from 'react';
 import logo from './logo.png';
 import 'primereact/resources/themes/rhea/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -29,13 +29,13 @@ function App() {
 
 	const { i18n } = useTranslation();
 
-	const changeLocale = (lang)=>{
+	const changeLocale = useCallback((lang)=>{
 		i18n.changeLanguage(lang);
 		setLocale(lang);
 		moment.locale(lang);
-	}
+	},[]);
 
-	const sendMessage = (event, num, to, message, save=true)=>{
+	const sendMessage = useCallback((event, num, to, message, save=true)=>{
 		event.preventDefault();
 		window.open(`https://wa.me/${num}?text=${message}`);
 		if(save)
@@ -50,7 +50,7 @@ function App() {
 				localStorage.setItem("messageHistory", JSON.stringify(updatedHistory));
 				return updatedHistory;
 			})
-	};
+	},[]);
 
   	return (
 		<>
